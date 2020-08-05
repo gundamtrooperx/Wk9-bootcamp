@@ -1,15 +1,15 @@
 
-# Title:readme generator
-## Author:Frank
-## Github Link: [GitHub](https://github.com/gundamtr)
-### License: ![Github License](https://img.shields.io/badge/license-MIT-blue.svg))
+# Title: Readme Generator
+## Author: Frank
+## Github Link: [Github User Profile](https://github.com/gundamtrooperx)
+### License: ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 #### Table of Contents: 
 Instructions | Description 
 --- | ---
 Installation | npm i
 Testing | npm test
-Usage | 
---- | ---
+Usage | open source
 ### Project Description:  
-generating readme inquire fs packages
-If you have any questions email me gundamtr@gmail.com
+Generating a readme file
+
+###### If you have any questions email me gundamtrooperx@gmail.com
