@@ -62,20 +62,20 @@ function init() {
 inquirer.prompt(questions).then(function(tv){
 console.log(tv)
 var readmeText = `
-# Title:${tv.title}
-## Author:${tv.contributors}
-## Github Link: [GitHub](https://github.com/${tv.github})
-### License: ![Github License](https://img.shields.io/badge/license-${tv.license}-blue.svg))
+# Title: ${tv.title}
+## Author: ${tv.contributors}
+## Github Link: [Github User Profile](https://github.com/${tv.github})
+### License: ![Github License](https://img.shields.io/badge/license-${tv.license}-blue.svg)
 #### Table of Contents: 
 Instructions | Description 
 --- | ---
 Installation | ${tv.install}
 Testing | ${tv.tests}
 Usage | ${tv.usage}
---- | ---
 ### Project Description:  
 ${tv.description}
-If you have any questions email me ${tv.email}
+
+###### If you have any questions email me ${tv.email}
 `
 fs.writeFileSync("README.md", readmeText, function(){
     console.log("filegenerator", readmeText)
