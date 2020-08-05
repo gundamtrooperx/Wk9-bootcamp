@@ -1,5 +1,5 @@
 var inquirer = require("inquirer")
-
+var fs = require("fs")
 // array of questions for user
 const questions = [
 {
@@ -77,7 +77,10 @@ Usage | ${tv.usage}
 ${tv.description}
 If you have any questions email me ${tv.email}
 `
-console.log(readmeText)
+fs.writeFileSync("README.md", readmeText, function(){
+    console.log("filegenerator", readmeText)
+})
+
 })
 }
 
