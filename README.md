@@ -8,8 +8,5 @@ Github Link: https://github.com/gundamtrooperx
 
 Gif:
 
-
-
 https://drive.google.com/file/d/1hmJH52nq66BV-FArW6txeJuQEjOaYcPe/view
-
 
